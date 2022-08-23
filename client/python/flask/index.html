@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>WS Client</title>
+  </head>
+  <body>
+    <form id="form">
+      <label for="text">Input </label>
+      <input type="text" id="text" autofocus>
+    </form>
+    <br>
+    <div id="log"></div>
+    <script>
+      const log = (text, color) => {
+        document.getElementById('log').innerHTML += `<span style="color: ${color}">${text}</span><br>`;
+      };
+
+      const ws = new WebSocket(`ws://${location.hostname}:1609/echo`);
+
+      ws.onopen = function() {
+        log("WS opened");
+      };
+
+      ws.onclose = function() {
+        log("WS closed");
+      };
+
+      ws.onmessage = function(e){
+        log(e.data, "blue");
+      };
+
+      document.getElementById("form").onsubmit = e => {
+        e.preventDefault();
+        const tf = document.getElementById('text');
+        log(tf.value, "red");
+        ws.send(tf.value);
+        tf.value = "";
+      };
+    </script>
+  </body>
+</html>
