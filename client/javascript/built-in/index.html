@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WS Client</title>
+</head>
+<body>
+  <script type="text/javascript">
+    const ws = new WebSocket("ws://localhost:1609/echo");
+
+    ws.addEventListener("open", function(e) {
+      console.log("WS opened", e);
+      ws.send("I am Client");
+    });
+
+    ws.addEventListener("close", function() {
+      console.log("WS closed");
+    });
+
+    ws.addEventListener("message", function(e) {
+      console.log("WS message", e);
+      alert(e.data);
+    });
+  </script>
+</body>
+</html>
