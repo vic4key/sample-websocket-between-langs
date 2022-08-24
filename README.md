@@ -9,7 +9,7 @@ WS Client Tool @ <https://websocketking.com/>
 ## Websocket (ECHO @ ws://127.0.0.1:1609/echo)
 
 #### WS Client
-- [x] Python ([flask_sock](server/python/flask_sock))
+- [x] Python ([flask_sock](server/python/flask_sock), [websockets](server/python/websockets))
 - [x] JavaScript
 - [ ] Node JS
 - [ ] C
