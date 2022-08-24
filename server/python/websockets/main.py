@@ -1,3 +1,5 @@
+# https://websockets.readthedocs.io/en/stable/intro/index.html
+
 # Note:
 #   - Make server fully websocket
 #   - All paths of `ws://127.0.0.1:1609/*` are handling by websocket
