@@ -8,21 +8,21 @@ WS Client Tool @ <https://websocketking.com/>
 
 ## Websocket (ECHO @ ws://127.0.0.1:1609/echo)
 
-#### WS Client
+#### WS Server
 - [x] Python ([flask_sock](server/python/flask_sock), [websockets](server/python/websockets))
 - [x] JavaScript
 - [ ] Node JS
 - [ ] C
-- [ ] C++
+- [x] C++ ([cpprestsdk](server/cpp/cpprestsdk/ws-server))
 - [ ] C#
 - [ ] ...
 
-#### WS Server
+#### WS Client
 - [x] Python ([flask](client/python/flask), [websocket-client](client/python/websocket-client))
 - [ ] ~JavaScript~
 - [ ] Node JS
 - [ ] C
-- [ ] C++
+- [x] C++ ([cpprestsdk](client/cpp/cpprestsdk/ws-client))
 - [ ] C#
 - [ ] ...
 
