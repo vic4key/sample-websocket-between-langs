@@ -11,7 +11,7 @@ WS Client Tool @ <https://websocketking.com/>
 #### WS Server
 - [x] Python ([flask_sock](server/python/flask_sock), [websockets](server/python/websockets))
 - [x] JavaScript
-- [ ] Node JS
+- [x] Node JS ([ws](server/nodejs/ws))
 - [ ] C
 - [x] C++ ([cpprestsdk](server/cpp/cpprestsdk/ws-server))
 - [ ] C#
@@ -20,7 +20,7 @@ WS Client Tool @ <https://websocketking.com/>
 #### WS Client
 - [x] Python ([flask](client/python/flask), [websocket-client](client/python/websocket-client))
 - [ ] ~JavaScript~
-- [ ] Node JS
+- [x] Node JS ([ws](client/nodejs/ws))
 - [ ] C
 - [x] C++ ([cpprestsdk](client/cpp/cpprestsdk/ws-client))
 - [ ] C#
