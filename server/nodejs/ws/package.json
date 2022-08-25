@@ -8,5 +8,8 @@
   },
   "author": "Vic P.",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "ws": "^8.8.1"
+  }
 }
