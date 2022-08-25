@@ -9,6 +9,7 @@ WS Client Tool @ <https://websocketking.com/>
 ## Websocket (ECHO @ ws://127.0.0.1:1609/echo)
 
 #### WS Server
+
 - [x] Python ([flask_sock](server/python/flask_sock), [websockets](server/python/websockets))
 - [x] JavaScript
 - [x] Node JS ([ws](server/nodejs/ws))
@@ -18,6 +19,7 @@ WS Client Tool @ <https://websocketking.com/>
 - [ ] ...
 
 #### WS Client
+
 - [x] Python ([flask](client/python/flask), [websocket-client](client/python/websocket-client))
 - [ ] ~JavaScript~
 - [x] Node JS ([ws](client/nodejs/ws))
@@ -26,7 +28,14 @@ WS Client Tool @ <https://websocketking.com/>
 - [ ] C#
 - [ ] ...
 
+## To-Do
+
+- [ ] Add SSL Secure aka WSS
+- [ ] Add broad-casting
+- [ ] Add fully events for client and server
+
 ## References
+
 - <https://github.com/facundofarias/awesome-websockets>
 - <https://realtimeapi.io/hub/getting-started-realtime/>
 - <https://www.fullstackpython.com/websockets.html>
